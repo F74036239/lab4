@@ -89,11 +89,25 @@ B:
 
 1 8
 
-4 8
+sizeof(a):a is a char , character's size is 1 in sizeof definition.   
+
+sizeof(pa):pa is a pointer represent the location , normally 4 bytes for 32-bit machine, and 8 bytes for 64-bit machine.
 
 4 8
+
+sizeof(b):b is an int , integer's size is 4 bytes.  
+
+sizeof(pb):pa is a pointer represent the location , normally 4 bytes for 32-bit machine, and 8 bytes for 64-bit machine.
+
+4 8
+
+sizeof(c):c is a float , floating point's size is 4 bytes.
+
+sizeof(pc):pc is a pointer represent the location , normally 4 bytes for 32-bit machine, and 8 bytes for 64-bit machine.
 
 8 8
 
+sizeof(d):d is a double , double's size is 8 bytes.  
 
+sizeof(pd):pd is a pointer represent the location , normally 4 bytes for 32-bit machine, and 8 bytes for 64-bit machine.
 
